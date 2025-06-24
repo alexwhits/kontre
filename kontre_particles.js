@@ -1,9 +1,9 @@
- <!-- JS Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+//libraries
+src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
 
-  <!-- Main Application Logic -->
-  <script>
+  //-- Main Application Logic -->
+ 
     const preload = () => {
       const manager = new THREE.LoadingManager();
       manager.onLoad = function () {
